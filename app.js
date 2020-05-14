@@ -1,7 +1,8 @@
-fetch('https://thesimpsonsquoteapi.glitch.me/quotes?count=num')
+
+fetch('http://quotes.stormconsultancy.co.uk/random.json')
     .then(function(response) {
         return response.json();
     })
-    .then(function(myJson) {
-        console.log(myJson);
+    .then(function(responsee) {
+        console.log(responsee);
     });
