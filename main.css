@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    margin: 2rem 6rem;
+    padding: 2rem;
+    justify-items: center;
+    
+}
+
+.titulo {
+    color: black;
+}
+
+.secciones {
+    background-color: lightgray;
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: space-evenly ;
+
+}
